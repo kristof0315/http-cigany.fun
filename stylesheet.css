@@ -1,0 +1,53 @@
+body {
+    background-color: beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    padding: 10pt;
+    background-color: lightblue;
+    border: 12pt blue solid;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.main-h1{
+    border: 1pt blue solid;
+    background-color: aqua;
+    border-radius: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 5pt;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-link {
+    border: 1pt blue solid;
+    background-color: aqua;
+    border-radius: 50px;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 5pt;
+}
+
+.main-link:hover {
+    border: 1pt darkblue solid;
+    background-color: white;
+    transition: 0.25s;
+}
+
+.tomi-img{
+    width: 20%;
+    margin-bottom: 10pt;
+    border-radius: 20px;
+    border:3pt blue solid;
+}
+
+
+
