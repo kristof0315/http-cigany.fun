@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: black;
+        }
+        .button {
+            width: 100px;
+            height: 100px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .number {
+            font-size: 40px;
+            width: 400px;
+            color: white;
+        }
+        .table {
+            margin: 25px auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+</head>
+<body>
+    <form action="" name="cal">
+        <table border="2" class="table">
+            <tr>
+                <td class="number" style="width: 300px;" colspan="4"><input class="number" type="text"  id="display" disabled></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="1" onclick="cal.display.value +='1'"></td>
+                <td><input class="button" type="button" value="2" onclick="cal.display.value +='2'"></td>
+                <td><input class="button" type="button" value="3" onclick="cal.display.value +='3'"></td>
+                <td><input name="x" class="button" type="button" value="-" onclick="cal.display.value +='-'"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="4" onclick="cal.display.value +='4'"></td>
+                <td><input class="button" type="button" value="5" onclick="cal.display.value +='5'"></td>
+                <td><input class="button" type="button" value="6" onclick="cal.display.value +='6'"></td>
+                <td><input name="x" class="button" type="button" value="+" onclick="cal.display.value +='+'"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="7" onclick="cal.display.value +='7'"></td>
+                <td><input class="button" type="button" value="8" onclick="cal.display.value +='8'"></td>
+                <td><input class="button" type="button" value="9" onclick="cal.display.value +='9'"></td>
+                <td><input name="x" class="button" type="button" value="*" onclick="cal.display.value +='*'"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="c" onclick="cal.display.value=''"></td>
+                <td><input class="button" type="button" value="0" onclick="cal.display.value +='0'"></td>
+                <td><input class="button" type="button" value="=" onclick="cal.display.value=eval(cal.display.value)"></td>
+                <td><input name="x" class="button" type="button" value="/" onclick="cal.display.value +='/'"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
