@@ -93,5 +93,10 @@ footer {
     .szekeres2{
         display: none;
     }
+    main {
+        margin-right:5%;
+        margin-left:5%;
+        
+    }
 
 }
