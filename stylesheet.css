@@ -69,3 +69,29 @@ footer {
     margin: 10px;
 }
 
+.szekeres2 {
+    border: 3pt blue solid;
+    border-radius: 15px;
+    width: 230px;
+    height: 250px;
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .main-h1 {
+        margin-right: 10%; 
+        margin-left: 10%;   
+    }
+    .main-link{
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 24px;
+    }
+    .tomi-img {
+        width: 75%;
+    }
+    .szekeres2{
+        display: none;
+    }
+
+}
