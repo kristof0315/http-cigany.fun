@@ -5,6 +5,7 @@ body {
 }
 
 main {
+    animation: nyitas 1.5s;
     margin-top: 10%;
     padding: 10pt;
     background: linear-gradient(aqua, rgb(0, 100, 255));
@@ -94,9 +95,18 @@ footer {
         display: none;
     }
     main {
-        margin-right:5%;
-        margin-left:5%;
-        
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
+}
+
+@keyframes nyitas {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+    
 }
