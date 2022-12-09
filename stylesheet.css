@@ -122,6 +122,9 @@ footer {
 }
 
 .suli-pic{
+    
+    border: 3pt blue solid;
+    border-radius: 15px;
     width: 45%;
     float: left;
 }
@@ -142,4 +145,12 @@ footer {
     margin-left: 30%;
     padding: 5pt;
     margin-top: 300px;
+}
+.main-text-2 {
+    border: 1pt blue solid;
+    background-color: aqua;
+    border-radius: 15px;
+    margin-right: 18%;
+    margin-left: 18%;
+    padding: 5pt;
 }
