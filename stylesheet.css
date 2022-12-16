@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    animation: nyitas 1.5s;
+    animation: nyitas 0.75s;
     margin-top: 10%;
     padding: 10pt;
     background: linear-gradient(aqua, rgb(0, 100, 255));
@@ -83,7 +83,7 @@ footer {
     margin: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) {   
     .main-h1 {
         margin-right: 10%; 
         margin-left: 10%;   
@@ -106,9 +106,6 @@ footer {
     .suli-pic {
         height: 250px;
     }
-    .main-text-1{
-        margin-bottom: 0px;
-    }
 }
 
 @keyframes nyitas {
@@ -129,6 +126,7 @@ footer {
     float: left;
 }
 .main-text-1 {
+    margin-bottom: -150px;
     border: 1pt blue solid;
     background-color: aqua;
     border-radius: 15px;
@@ -153,4 +151,27 @@ footer {
     margin-right: 18%;
     margin-left: 18%;
     padding: 5pt;
+}
+
+@media (max-width: 800px) {  
+    footer {
+        display: none;
+    } 
+    .main-text-1{
+        margin-top: 00px;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5pt;
+    }
+    .suli-pic{
+        float: none; 
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    width: 80%;
+    }
+    .main-link-suli {
+        margin-top: 20px;
+    }
 }
