@@ -31,7 +31,7 @@ a {
 }
 
 .main-link {
-    border: 1pt blue solid;
+    border-bottom: 3pt blue solid;
     background-color: aqua;
     border-radius: 50px;
     margin-right: 30%;
@@ -138,7 +138,7 @@ footer {
 }
 .main-link-suli{
     
-    border: 1pt blue solid;
+    border-bottom: 3pt blue solid;
     background-color: aqua;
     border-radius: 50px;
     margin-right: 30%;
