@@ -31,6 +31,7 @@ a {
 }
 
 .main-link {
+    border: 1pt aqua solid;
     border-bottom: 3pt blue solid;
     background-color: aqua;
     border-radius: 50px;
@@ -41,6 +42,7 @@ a {
 
 .main-link:hover {
     border: 1pt darkblue solid;
+    border-bottom: 3pt darkblue solid;
     background-color: white;
     transition: 0.25s;
 }
@@ -174,4 +176,9 @@ footer {
     .main-link-suli {
         margin-top: 20px;
     }
+}
+
+.szekeres:hover, .szekeres2:hover, .tomi-img:hover {
+    scale: 110%;
+    transition: 0.1s;
 }
